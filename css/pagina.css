@@ -1,0 +1,53 @@
+body{
+    background-color: #E6E6FA	;
+    height: 100%; 
+}
+
+
+
+ul li {
+    margin-left: 300px;
+    height: 10px;
+    width: 10px;
+    padding: 20px;
+    margin-bottom: 2%;
+    display: inline-flex;
+    list-style: none;
+}
+  
+.conteudo{
+    /*background-color: blue;*/
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr 1fr;
+    margin-left: 13%;
+    width: 70%;
+    height: 300px;
+}
+
+.apresentacao{
+    height: 100%;
+    width:  100%;
+}
+
+#Imagem1{
+    border: 2px solid red;
+    /*margin-left: 12%;*/
+    width: 200px;
+    height: 250px;
+}
+
+#Imagem2{
+    border: 2px solid yellow;
+    /*margin-left: 10%;*/
+    width: 150px;
+    height: 200px;
+}
+
+#Imagem3{
+    border: 2px solid blue;
+   /* margin-left: 10%;*/
+    width: 150px;
+    height: 200px;
+}
+
