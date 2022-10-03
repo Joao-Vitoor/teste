@@ -5,7 +5,7 @@ body{
 .todo{
     margin-left: 12%;
     background-color: white;
-    width: 75%;
+    width: 100em;
     height: 80%;
 }
 
@@ -58,7 +58,7 @@ a{
     display: grid;
     grid-template-columns: 1fr  1fr 1fr 1fr 1fr;
     color: black;
-    width: 50%;
+    width: 80em;
     height: 50%; 
 }
 .Quadro1{
@@ -159,7 +159,7 @@ p:hover{
 }
 .Quadro5{
 
-    margin-left: 80%;
+    margin-left: 70%;
     border-radius: 20px;
     box-shadow: 2px 3px 2px 2px #FFC0CB;
     width: 200px;
@@ -168,10 +168,12 @@ p:hover{
 
 .Quadro6{
     margin: 10px auto;
-    margin-right: 10%;
+    margin-left: 0%;
     box-shadow: 1px 3px 3px 3px  #FFC0CB;
 
     border-radius: 20px;
+    /*border: 10px double rgba(173,216,230);*/
+    /*background-color: aquamarine;*/
     width: 200px;
     height: 100%;
 }
@@ -185,7 +187,7 @@ p:hover{
 .Quadro7{
     border-radius: 20px;
     box-shadow: 2px 3px 2px 2px #FFC0CB; 
-    margin-left: 20%;
+    margin-left: 5%;
     /*border: 10px double rgba(255,182,193);*/
     /*background-color: aquamarine;*/
     width: 200px;
@@ -205,22 +207,34 @@ p:hover{
     width: 20.5vh;
 }
 .Quadro8{
-    margin-left: 30%;
+    margin-left: 10%;
     border-radius: 20px;
     box-shadow: 2px 3px 2px 2px #FFC0CB; 
     /*background-color: aquamarine;*/
     width: 200px;
     height: 100%;
 }
+.Quadro9 img{
+    margin: 9px auto;
+    border-radius: 20px;
+    width: 20.5vh;
+}
+
 .Quadro9{
-    margin-left: 50%;
+    margin-left: 10%;
     border-radius: 20px;
     box-shadow: 2px 3px 2px 2px #FFC0CB;
     width: 200px;
     height: 100%;
 }
+#Fixador{
+    border-radius: 20px;
+    width: 25.0vh;
+    width: 100%;
+    height: 55%;
+}
 .Quadro10{
-    margin-left: 80%;
+    margin-left: 20%;
     border-radius: 20px;
     box-shadow: 2px 3px 2px 2px #FFC0CB;
     width: 200px;
@@ -247,7 +261,7 @@ p:hover{
     margin-left: 10%;
     display: grid;
     grid-template-columns: 1fr  1fr 1fr 1fr 1fr;
-    width: 200px;
+    width: 80em;
     height: 100%;
 }
 
